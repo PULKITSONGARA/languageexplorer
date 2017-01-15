@@ -97,10 +97,10 @@
   </div></h1>
     <div data-role="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#Learn" data-transition="slidedown">Learn Language</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#pageone" data-transition="slidedown" >Home</a></li>
+        <li><a href="#Learn" data-transition="slidefade">Learn Language</a></li>
+        <li><a href="#about" data-transition="turn">About</a></li>
+        <li><a href="#contact" data-transition="flow">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -162,13 +162,27 @@
 
 <div data-role="page" id="Learn">
   <div data-role="header" id = "head">
-    <h1>Welcome</h1>
+    <h1>  <div class="row">
+  <svg viewBox="0 0 1800 400">
+    <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="80%">Languages</text>
+  </symbol>
+
+  <g class = "g-ants">
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+  </g>
+</svg>
+  </div></h1>
     <div data-role="navbar">
       <ul>
         <li><a href="#pageone" data-transition="slidedown">Home</a></li>
-        <li><a href="#Learn" data-transition="slidedown">Learn Language</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#Learn" data-transition="slidefade">Learn Language</a></li>
+        <li><a href="#about" data-transition="turn">About</a></li>
+        <li><a href="#contact" data-transition="flow">Contact</a></li>
       </ul>
     </div>
   </div><br><br>
@@ -192,43 +206,122 @@
         <div class="panel-heading">
             <h3 class="panel-title">Java Language</h3>
         </div>
-        <div class="panel-body">JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Corporation. It was conceived by James Gosling and Patrick Naughton. It is a simple programming language.  Writing, compiling and debugging a program is easy in java.  It helps to create modular programs and reusable code.Java is an Object Oriented language. Java supports multithreading. It enables a program to perform several tasks simultaneously.<br><br><a href="https://www.quora.com/What-are-the-best-Java-tutorials" target="_blank">Best tutorial to learn C++ language</a>
+        <div class="panel-body">JAVA was developed by Sun Microsystems Inc in 1991, later acquired by Oracle Corporation. It was conceived by James Gosling and Patrick Naughton. It is a simple programming language.  Writing, compiling and debugging a program is easy in java.  It helps to create modular programs and reusable code.Java is an Object Oriented language. Java supports multithreading. It enables a program to perform several tasks simultaneously.<br><br><a href="https://www.quora.com/What-are-the-best-Java-tutorials" target="_blank">Best tutorial to learn java language</a>
 </div>
     </div>
     <div class="panel panel-warning block">
         <div class="panel-heading">
             <h3 class="panel-title">Python Language</h3>
         </div>
-        <div class="panel-body">The request cannot be fulfilled due to bad syntax.<br><br><a href="https://www.quora.com/What-are-the-best-resources-for-learning-Python" target="_blank">Best tutorial to learn C++ language</a>
+        <div class="panel-body">Python is a dynamic, interpreted (bytecode-compiled) language. There are no type declarations of variables, parameters, functions, or methods in source code. This makes the code short and flexible, and you lose the compile-time type checking of the source code. Python tracks the types of all values at runtime and flags code that does not make sense as it runs.Like C++ and Java, Python is case sensitive so "a" and "A" are different variables. The end of a line marks the end of a statement, so unlike C++ and Java, Python does not require a semicolon at the end of each statement. Comments begin with a '#' and extend to the end of the line.<br><br><a href="https://www.quora.com/What-are-the-best-resources-for-learning-Python" target="_blank">Best tutorial to learn python language</a>
 </div>
     </div>`
 </div>
 
 
 </div>
+
+
+
+
+
+
+
 <div data-role="page" id="contact">
-  <div data-role="header" id = "head">
-    <h1>Welcome</h1>
+ <div data-role="header" id = "head">
+    <h1>  <div class="row">
+  <svg viewBox="0 0 1800 400">
+    <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="80%">About</text>
+  </symbol>
+
+  <g class = "g-ants">
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+  </g>
+</svg>
+  </div></h1>
     <div data-role="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#Learn" data-transition="slidedown">Learn Language</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#pageone" data-transition="slidedown">Home</a></li>
+        <li><a href="#Learn" data-transition="slidefade" >Learn Language</a></li>
+        <li><a href="#about" data-transition="turn">About</a></li>
+        <li><a href="#contact" data-transition="flow">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content" align="center">
+    <a href="mailto:pulkitsongara@gmail.com?Subject=Hello%20again" target="_top">Mail Me</a></br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.655295118775!2d75.90663681453908!3d22.703872585115388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e3283245cd13%3A0x9d2b418a28e956c3!2sBrajeshwari+Extention+Colony!5e0!3m2!1sen!2sin!4v1484315692724" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div> 
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="about">
+<div data-role="header" id = "head">
+    <h1>  <div class="row">
+  <svg viewBox="0 0 1800 400">
+    <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="80%">Contact</text>
+  </symbol>
+
+  <g class = "g-ants">
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+    <use xlink:href="#s-text" class="text-copy"></use>
+  </g>
+</svg>
+  </div></h1>
+  
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#pageone" data-transition="slidedown">Home</a></li>
+        <li><a href="#Learn" data-transition="slidefade">Learn Language</a></li>
+        <li><a href="#about" data-transition="turn">About</a></li>
+        <li><a href="#contact" data-transition="flow">Contact</a></li>
       </ul>
     </div>
   </div>
 
   <div data-role="main" class="ui-content">
-    <a href="mailto:pulkitsongara@gmail.com?Subject=Hello%20again" target="_top">Mail Me</a></br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.655295118775!2d75.90663681453908!3d22.703872585115388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962e3283245cd13%3A0x9d2b418a28e956c3!2sBrajeshwari+Extention+Colony!5e0!3m2!1sen!2sin!4v1484315692724" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
 
- <!--  <div data-role="footer">
-    <h1>My Footer</h1>
-  </div> -->
+  </div>
 </div> 
 
+
+
+
+
+
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/587b5286bcf30e71ac0fe663/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 
 
