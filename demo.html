@@ -1,0 +1,23 @@
+<html>
+<head><script type="text/javascript">
+    function switchMenu(obj) {
+        var el = document.getElementById(obj);
+        if ( el.style.display != "none" ) {
+            el.style.display = 'none';
+        }
+        else {
+            el.style.display = '';
+        }
+    }
+    document.getElementById('aboutme').style.display = 'none';
+</script>
+</head>
+<body>
+<div class="container">
+    <a href="#" onclick="switchMenu('aboutme');">about me</a>
+    <div id="aboutme">
+        sample text to be expanded and collapsed
+    </div>
+</div>
+</body>
+</html>
